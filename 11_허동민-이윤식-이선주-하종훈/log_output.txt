@@ -1,0 +1,186 @@
+/*
+원래 https://github.com/rilato/Software_Engineering 에 코드를 올려 함께 작업하려고 했으나,
+기존의 파일들과 충돌이 생겨 업로드를 할 수 없어, 다른 팀원의 레포지토리에 새로 만들고 코딩 협업하였습니다.
+이에 따라 두 개의 레포지토리에서 작업하여, 두 곳의 작업 log_output을 한 파일에 첨부하였습니다.
+*/
+
+/* 먼저 https://github.com/rilato/Software_Engineering에서 작업한 logout입니다. */
+
+[HurDong] Fri May 26 04:53:10 2023 +0900 Create DesignClassDiagram.mdj 29a4c59
+[HurDong] Fri May 26 00:52:49 2023 +0900 update communicationdiagram,usecasediagram 2af912a
+[sunjoolee] Fri May 26 00:40:54 2023 +0900 Delete Submit 86a027b
+[sunjoolee] Fri May 26 00:40:37 2023 +0900 Create Submit 8dc7646
+[sunjoolee] Fri May 26 00:35:25 2023 +0900 Add files via upload a7e9c3d
+[sunjoolee] Fri May 26 00:35:14 2023 +0900 Delete CommunicationDiagram_LeeSunjoo.mdj 3e69b6d
+[jh9788] Fri May 26 00:32:54 2023 +0900 Add files via upload 2ab23da
+[jh9788] Fri May 26 00:31:43 2023 +0900 Delete CommunicationDiagram_HaJonghun.mdj e79a1c5
+[HurDong] Fri May 26 00:31:38 2023 +0900 Update CommunicationDiagram_HurDongmin.mdj 6e70077
+[HurDong] Fri May 26 00:30:56 2023 +0900 Merge branch 'main' of https://github.com/rilato/Software_Engineering 3aa3da5
+[HurDong] Fri May 26 00:30:48 2023 +0900 Update CommunicationDiagram_HurDongmin.mdj e0ca9eb
+[rilato] Thu May 25 23:30:05 2023 +0900 Update CommunicationDiagram_LeeYunsik.mdj 4e975dd
+[HurDong] Thu May 25 23:12:03 2023 +0900 commit hurdongmin 52ccf82
+[sunjoolee] Thu May 25 23:11:23 2023 +0900 Delete HW3/Submit directory 2aee641
+[jh9788] Thu May 25 23:10:41 2023 +0900 Merge pull request #21 from jh9788/main 2984b32
+[jh9788] Thu May 25 23:10:17 2023 +0900 Merge pull request #10 from rilato/main ee8751c
+[sunjoolee] Thu May 25 23:09:49 2023 +0900 Merge pull request #20 from sunjoolee/main 1b90fc2
+[sunjoolee] Thu May 25 23:09:25 2023 +0900 Merge branch 'rilato:main' into main 925528b
+[jh9788] Thu May 25 23:09:14 2023 +0900 communication design 1f091e9
+[rilato] Thu May 25 23:08:53 2023 +0900 Merge branch 'main' of https://github.com/rilato/Software_Engineering 4eef83e
+[rilato] Thu May 25 23:08:35 2023 +0900 Update CommunicationDiagram_LeeYunsik.mdj 7060f2a
+[sunjoolee] Thu May 25 23:08:10 2023 +0900 Add files via upload 9a5eae8
+[sunjoolee] Thu May 25 23:07:47 2023 +0900 Add files via upload 4055aae
+[jh9788] Thu May 25 23:07:17 2023 +0900 Merge pull request #9 from rilato/main 9f275de
+[rilato] Thu May 25 23:03:36 2023 +0900 Merge branch 'main' of https://github.com/rilato/Software_Engineering 08c1870
+[rilato] Thu May 25 23:03:35 2023 +0900 modify requirementList & UsecaseDiagram & UsecaseDescription ce9ff70
+[sunjoolee] Thu May 25 23:02:36 2023 +0900 Add files via upload 3d4dafe
+[sunjoolee] Thu May 25 23:01:51 2023 +0900 Delete UsecaseDescriptions_LeeSunjoo.pdf 08ddd42
+[sunjoolee] Thu May 25 23:01:25 2023 +0900 Add files via upload cafb1ed
+[sunjoolee] Thu May 25 23:01:00 2023 +0900 Delete UsecaseDiagram_LeeSunjoo.mdj 1294e75
+[sunjoolee] Thu May 25 23:00:19 2023 +0900 Add files via upload 5c293b1
+[sunjoolee] Thu May 25 22:59:29 2023 +0900 Delete RequirementList_LeeSunjoo.pdf cd679ae
+[HurDong] Thu May 25 21:51:12 2023 +0900 Update DesignClassDiagram_HurDongmin.mdj 35e3688
+[rilato] Thu May 25 21:17:58 2023 +0900 Create DesignClassDiagram_LeeYunsik.mdj d0d15e0
+[rilato] Thu May 25 19:48:11 2023 +0900 Create CommunicationDiagram_LeeYunsik.mdj d0aa718
+[HurDong] Thu May 25 18:39:00 2023 +0900 Update CommunicationDiagram_HurDongmin.mdj 8ac1a84
+[HurDong] Sun May 21 18:21:21 2023 +0900 update DesignClassDiagram_HurDongmin b48b027
+[HurDong] Sat May 20 01:18:25 2023 +0900 Update DesingClassDiagram_HurDongmin.mdj 4844e2a
+[HurDong] Fri May 19 23:11:36 2023 +0900 update CommunicationDiagram and DesignClassDiagram_HurDongmin 65cae22
+[HurDong] Fri May 19 22:52:32 2023 +0900 add sumbit 5c234af
+[jh9788] Fri May 19 22:21:01 2023 +0900 Merge pull request #19 from jh9788/main 64883cd
+[jh9788] Fri May 19 22:20:16 2023 +0900 Merge branch 'main' of https://github.com/jh9788/Software_Engineering 3b9f612
+[jh9788] Fri May 19 22:20:15 2023 +0900 pull 7120878
+[jh9788] Fri May 19 22:15:56 2023 +0900 Merge pull request #8 from rilato/main f868ae9
+[rilato] Fri May 19 22:13:42 2023 +0900 Create UsecaseDescriptions_LeeYunsik.pdf df27ae4
+[HurDong] Fri May 19 22:03:20 2023 +0900 Update DesingClassDiagram_HurDongmin.mdj c4783c7
+[HurDong] Fri May 19 22:02:41 2023 +0900 Merge branch 'main' of https://github.com/rilato/Software_Engineering 3239a05
+[jh9788] Fri May 19 20:52:47 2023 +0900 Merge pull request #18 from jh9788/main ab3dce9
+[jh9788] Fri May 19 20:52:22 2023 +0900 work3 d2d0b3b
+[jh9788] Fri May 19 20:38:57 2023 +0900 Merge pull request #7 from rilato/main 7d76fec
+[HurDong] Fri May 19 17:37:06 2023 +0900 add DesignClassDiagram_HurDongmin f47a19e
+[HurDong] Fri May 19 16:37:58 2023 +0900 Add CommunicationDiagram_HurDongmin 0e9d357
+[HurDong] Fri May 19 03:25:50 2023 +0900 add Requirementlist, UsecaseDiagram and UsecaseDescription_HurDongmin 687cf8c
+[sunjoolee] Fri May 19 01:02:54 2023 +0900 Merge pull request #17 from sunjoolee/main 4964dfc
+[sunjoolee] Fri May 19 01:01:58 2023 +0900 Merge branch 'rilato:main' into main 1048303
+[sunjoolee] Fri May 19 00:27:33 2023 +0900 add UsecaseDescriptions_LeeSunjoo.pdf cac81b3
+[sunjoolee] Fri May 19 00:22:33 2023 +0900 add RequirementList_LeeSunjoo.pdf 3a7a71c
+[sunjoolee] Fri May 19 00:17:55 2023 +0900 add UsecaseDiagram_LeeSunjoo.mdj d866cb7
+[rilato] Fri May 19 00:09:23 2023 +0900 add requirementList && usecaseDiagram 87f7b78
+[sunjoolee] Fri May 19 00:08:50 2023 +0900 Merge branch 'rilato:main' into main 44b51d2
+[rilato] Thu May 18 22:17:10 2023 +0900 add HW3 folders 54c7c00
+[rilato] Fri May 12 03:21:56 2023 +0900 Create log_output.txt 152540e
+[jh9788] Fri May 12 03:06:26 2023 +0900 Merge pull request #6 from rilato/main 74f7fd9
+[HurDong] Fri May 12 03:04:59 2023 +0900 Merge branch 'main' of https://github.com/rilato/Software_Engineering 6cd68ac
+[HurDong] Fri May 12 03:02:39 2023 +0900 update e0745a9
+[rilato] Fri May 12 03:00:34 2023 +0900 Update AnalysisClassDiagram.mdj 37c45ad
+[rilato] Fri May 12 02:47:49 2023 +0900 add UsecaseDescription.pdf and add RequirementList.pdf fffd034
+[HurDong] Fri May 12 02:41:32 2023 +0900 update fb52d29
+[sunjoolee] Fri May 12 02:39:19 2023 +0900 Merge pull request #2 from rilato/main 19310f7
+[rilato] Fri May 12 02:06:41 2023 +0900 add merged StarUML 3e9da7a
+[rilato] Thu May 11 21:30:05 2023 +0900 Create UsecaseClassDiagram_Leeyunsik.mdj 430af72
+[jh9788] Thu May 11 21:02:05 2023 +0900 Merge pull request #16 from jh9788/main acf4892
+[jh9788] Thu May 11 21:01:30 2023 +0900 Create AnalysisClassDiagram_Hajonghun.mdj 9366124
+[jh9788] Thu May 11 21:00:16 2023 +0900 Merge pull request #5 from rilato/main aa714ae
+[HurDong] Thu May 11 20:55:58 2023 +0900 Update AnalysisClassDiagram_Hurdongmin.mdj 2fe6383
+[HurDong] Thu May 11 20:42:07 2023 +0900 Update AnalysisClassDiagram_Hurdongmin 56685f2
+[HurDong] Thu May 11 20:05:39 2023 +0900 update communicationdiagram & add analysisclassdiagram_hurdongmin c726caf
+[sunjoolee] Thu May 11 17:05:40 2023 +0900 add UsecaseClassDiagram_LeeSunjoo.mdj f04d772
+[sunjoolee] Thu May 11 15:52:42 2023 +0900 Merge pull request #15 from sunjoolee/main 9913fee
+[sunjoolee] Thu May 11 15:51:41 2023 +0900 Merge branch 'rilato:main' into main 734a04c
+[sunjoolee] Thu May 11 15:51:12 2023 +0900 Update CommunicationDiagrams_LeeSunjoo.mdj ef2405b
+[jh9788] Thu May 11 15:49:09 2023 +0900 Merge pull request #14 from jh9788/main 06bd212
+[jh9788] Thu May 11 15:48:33 2023 +0900 jonghun communication a07faac
+[jh9788] Thu May 11 15:47:43 2023 +0900 Merge pull request #4 from rilato/main 181608a
+[rilato] Thu May 11 13:12:49 2023 +0900 Create CommunicationDiagram_LeeYunsik.mdj 3d45d54
+[HurDong] Thu May 11 03:21:14 2023 +0900 Update CommunicationDiagram_Hurdongmin.mdj 0a77f62
+[jh9788] Wed May 10 17:49:57 2023 +0900 Merge pull request #13 from jh9788/main 39316a0
+[jh9788] Wed May 10 17:49:12 2023 +0900 jonghun description c38a555
+[jh9788] Wed May 10 17:47:16 2023 +0900 Merge pull request #3 from rilato/main e094b93
+[sunjoolee] Wed May 10 15:14:42 2023 +0900 Merge pull request #12 from sunjoolee/main fdaac58
+[sunjoolee] Wed May 10 15:13:52 2023 +0900 add UsecaseDiagram_LeeSunjoo.mdj 9987db9
+[sunjoolee] Wed May 10 15:13:31 2023 +0900 Delete UseCaseDiagram_LeeSunjoo.png f19b4a3
+[sunjoolee] Wed May 10 15:12:14 2023 +0900 add CommunicationDiagrams_LeeSunjoo.mdj 401ad80
+[sunjoolee] Wed May 10 15:04:49 2023 +0900 add UsecaseDescriptions_LeeSunjoo.pdf 5c7b00f
+[sunjoolee] Wed May 10 14:47:08 2023 +0900 add UseCaseDiagram_LeeSunjoo.png 2542f3c
+[sunjoolee] Wed May 10 14:44:35 2023 +0900 add RequirementList_LeeSunjoo.pdf 6a13202
+[sunjoolee] Wed May 10 14:37:47 2023 +0900 Update README.md ac7a8bb
+[HurDong] Wed May 10 04:21:54 2023 +0900 Merge pull request #11 from rilato/hurdong 0fe305c
+[HurDong] Wed May 10 04:19:32 2023 +0900 Update UsecaseDescription & Create CommunicationDiagram_Hurdongmin 0276331
+[HurDong] Wed May 10 02:01:26 2023 +0900 Update CommunicationDiagram_Hurdongmin.mdj 973357f
+[HurDong] Tue May 9 22:24:06 2023 +0900 Create CommunicationDiagram_Hurdongmin c07753f
+[HurDong] Tue May 9 22:04:03 2023 +0900 Merge pull request #10 from rilato/hurdong a1e6e2f
+[HurDong] Tue May 9 22:02:52 2023 +0900 Add UsecaseDescription_Hurdongmin c8e29b5
+[jh9788] Tue May 9 15:29:54 2023 +0900 Merge pull request #9 from jh9788/main 7c2d82e
+[jh9788] Tue May 9 15:29:08 2023 +0900 usecase diagram 802ba53
+[jh9788] Tue May 9 14:48:30 2023 +0900 Merge pull request #8 from jh9788/main 145476a
+[jh9788] Tue May 9 14:47:48 2023 +0900 Create RequirementList_Hajonghun.pdf 4556a8b
+[jh9788] Tue May 9 14:28:51 2023 +0900 Merge pull request #2 from rilato/main d620685
+[HurDong] Tue May 9 03:52:56 2023 +0900 Update README.md 41f1160
+[HurDong] Tue May 9 02:29:55 2023 +0900 Merge pull request #7 from rilato/hurdong 01ac2a6
+[HurDong] Tue May 9 02:10:41 2023 +0900 Merge pull request #6 from rilato/main 6b39c3e
+[HurDong] Mon May 8 23:41:31 2023 +0900 add requirementlist_Hurdong 7d8e5ac
+[HurDong] Mon May 8 20:54:24 2023 +0900 Merge pull request #5 from rilato/hurdong 0775330
+[HurDong] Mon May 8 20:51:37 2023 +0900 add usecasediagram_hurdong a352e8b
+[Yunsik Lee] Mon May 8 19:41:36 2023 +0900 Update README.md 9a3fc75
+[Yunsik Lee] Mon May 8 19:40:49 2023 +0900 Update README.md 0f20cc3
+[Yunsik Lee] Mon May 8 19:40:14 2023 +0900 Update README.md ef0d959
+[rilato] Mon May 8 19:38:36 2023 +0900 add RequirementList folder & UsecaseDescription folder & AnalysisClassDiagram folder & Upload files that Yoonsik worked on 7386043
+[rilato] Mon May 8 19:14:04 2023 +0900 Create UsecaseDiagram_Leeyunsik.mdj 59f90de
+[Yunsik Lee] Mon May 8 18:36:05 2023 +0900 Update README.md 8eab39e
+[Yunsik Lee] Mon May 8 18:35:19 2023 +0900 Update README.md d447ca2
+[rilato] Mon May 8 18:34:10 2023 +0900 add Usecase_Diagram folder & Communication_Diagram folder c246324
+[jh9788] Mon May 8 17:26:39 2023 +0900 Merge pull request #4 from jh9788/main bd26a3e
+[sunjoolee] Mon May 8 17:24:53 2023 +0900 Merge pull request #3 from sunjoolee/main 61ce549
+[sunjoolee] Mon May 8 17:24:13 2023 +0900 Merge pull request #1 from rilato/main ac85fbd
+[jh9788] Mon May 8 17:24:08 2023 +0900 Merge pull request #1 from rilato/main 9bb85e2
+[sunjoolee] Mon May 8 17:22:55 2023 +0900 Delete test.txt.txt 2e72c9b
+[jh9788] Mon May 8 17:22:47 2023 +0900 Delete 하종훈 test.pdf bc23fef
+[sunjoolee] Mon May 8 17:21:36 2023 +0900 Merge pull request #2 from jh9788/main 381c7ce
+[sunjoolee] Mon May 8 17:21:21 2023 +0900 Merge pull request #1 from sunjoolee/main 8e92d5b
+[sunjoolee] Mon May 8 17:17:13 2023 +0900 Revert "Update README.md" 5fb8451
+[sunjoolee] Mon May 8 17:16:29 2023 +0900 Create test.txt.txt 20641c6
+[jh9788] Mon May 8 17:15:32 2023 +0900 Create 하종훈 test.pdf 5f159c9
+[Yunsik Lee] Mon May 8 17:11:29 2023 +0900 Update README.md 56aa218
+[Yunsik Lee] Mon May 8 13:39:40 2023 +0900 Update README.md 25a43fb
+[Yunsik Lee] Mon May 8 13:39:14 2023 +0900 Update README.md 8c9acd7
+[rilato] Mon May 8 13:13:26 2023 +0900 init bb05462
+
+-------------------------------------------------------------------------------------------------------
+/* 다음으로 https://github.com/jh9788/software-Engineering-2에서 코딩 작업한 logout입니다. */
+
+[rilato] Thu May 25 23:02:32 2023 +0900 delete txt ea37c20
+[rilato] Thu May 25 22:43:01 2023 +0900 finish 788570f
+[rilato] Thu May 25 22:33:53 2023 +0900 add 5124d7e
+[rilato] Thu May 25 22:32:34 2023 +0900 modifyWIthdraw d7577fe
+[sunjoolee] Thu May 25 22:17:17 2023 +0900 map to string 5b3386a
+[rilato] Thu May 25 19:24:17 2023 +0900 changeFunctionName 3348b8d
+[하종훈] Thu May 25 01:53:52 2023 +0900 final b4fa9a5
+[sunjoolee] Wed May 24 23:42:04 2023 +0900 convention 647495c
+[sunjoolee] Wed May 24 23:41:07 2023 +0900 coding convention 19ed49a
+[sunjoolee] Wed May 24 21:54:11 2023 +0900 merge conflict solved f36ff55
+[Yunsik Lee] Wed May 24 21:41:19 2023 +0900 Delete example.txt aae4212
+[Yunsik Lee] Wed May 24 21:41:03 2023 +0900 Delete output.txt 4d20547
+[rilato] Wed May 24 21:37:31 2023 +0900 add d6ca78e
+[rilato] Wed May 24 19:49:59 2023 +0900 addgetAllApplicationInfoCollectionFunction e40aff3
+[HurDong] Wed May 24 19:07:04 2023 +0900 update 7:06pm b03dd62
+[HurDong] Wed May 24 18:30:12 2023 +0900 병합 충돌 수정 후 커밋 ad6a843
+[sunjoolee] Wed May 24 15:23:17 2023 +0900 recruit info stats sub system 95a4ac8
+[HurDong] Wed May 24 04:43:08 2023 +0900 update ApplyImmediately 627c060
+[하종훈] Wed May 24 04:09:20 2023 +0900 재커밋 2f04808
+[하종훈] Wed May 24 04:01:25 2023 +0900 Revert "하종훈 완료" 74efa9d
+[하종훈] Wed May 24 03:45:24 2023 +0900 하종훈 완료 6c1d4fd
+[HurDong] Wed May 24 03:00:31 2023 +0900 Update ApplyImmediately.cpp 5ef21a6
+[HurDong] Wed May 24 02:59:56 2023 +0900 ApplyImmediately 임시 update 512b815
+[HurDong] Tue May 23 23:29:14 2023 +0900 update membercollection eb7e469
+[HurDong] Tue May 23 06:18:54 2023 +0900 update searchRecruitInfo efa0839
+[rilato] Tue May 23 00:42:53 2023 +0900 addViewAddedRecruitListFunction 93fb10b
+[rilato] Mon May 22 23:09:11 2023 +0900 addAddRecruitInfoFunction bfb1665
+[하종훈] Mon May 22 03:19:51 2023 +0900 Refactoring4 ee4080c
+[하종훈] Mon May 22 02:43:13 2023 +0900 Refactoring3 f175e9a
+[하종훈] Mon May 22 02:17:28 2023 +0900 Refactoring2 90f19c1
+[하종훈] Sun May 21 23:38:04 2023 +0900 Refactoring 9ff5f01
+[하종훈] Sun May 21 22:38:45 2023 +0900 commit 52477b8
+[gkwhd] Sun May 21 22:35:06 2023 +0900 초기 커밋. 2c4e307
+[gkwhd] Sun May 21 22:35:04 2023 +0900 .gitattributes 및 .gitignore을(를) 추가합니다. 37acf95
+
+
+

@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Entity">
+      <UniqueIdentifier>{c0377911-db13-4d3c-9119-ffaa25de900a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\회원관리 서브시스템">
+      <UniqueIdentifier>{b3bcdf5b-acd9-401c-8b00-dba4ac29f8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\채용정보관리 서브시스템">
+      <UniqueIdentifier>{d0be9322-173f-450e-a613-7387adc509d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\회원관리 서브시스템">
+      <UniqueIdentifier>{bbeafbdd-a3c0-4eda-b389-9f984628a3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Entity">
+      <UniqueIdentifier>{45ffecc1-0aee-4e35-8ca0-d6f40420d8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\채용정보관리 서브시스템">
+      <UniqueIdentifier>{a80a4fbc-3d09-4f5a-8ed2-ab7f61590a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\채용정보통계 서브시스템">
+      <UniqueIdentifier>{8915b173-7051-4ed7-922f-0bd34add1fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\채용정보통계 서브시스템">
+      <UniqueIdentifier>{0e4504b4-7cf7-4ad8-b88d-c5124d2081ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\채용지원 서브시스템">
+      <UniqueIdentifier>{d084e651-23f2-49a5-98c3-3778c697e2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\채용지원 서브시스템">
+      <UniqueIdentifier>{3cae05d4-d62f-4f4e-80b5-cb95eff7b2fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CompanyMember.cpp">
+      <Filter>소스 파일\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralMember.cpp">
+      <Filter>소스 파일\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Member.cpp">
+      <Filter>소스 파일\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="MemberCollection.cpp">
+      <Filter>소스 파일\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="RecruitInfoCollection.cpp">
+      <Filter>소스 파일\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>소스 파일\회원관리 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="RecruitInfo.cpp">
+      <Filter>소스 파일\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginUI.cpp">
+      <Filter>소스 파일\회원관리 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="Logout.cpp">
+      <Filter>소스 파일\회원관리 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoutUI.cpp">
+      <Filter>소스 파일\회원관리 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="Register.cpp">
+      <Filter>소스 파일\회원관리 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterUI.cpp">
+      <Filter>소스 파일\회원관리 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="Withdraw.cpp">
+      <Filter>소스 파일\회원관리 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="WithdrawUI.cpp">
+      <Filter>소스 파일\회원관리 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="AddRecruitInfo.cpp">
+      <Filter>소스 파일\채용정보관리 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="AddRecruitInfoUI.cpp">
+      <Filter>소스 파일\채용정보관리 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewAddedRecruitList.cpp">
+      <Filter>소스 파일\채용정보관리 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewAddedRecruitListUI.cpp">
+      <Filter>소스 파일\채용정보관리 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationInfo.cpp">
+      <Filter>소스 파일\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationInfoCollection.cpp">
+      <Filter>소스 파일\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchRecruitInfo.cpp">
+      <Filter>소스 파일\채용지원 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchRecruitInfoUI.cpp">
+      <Filter>소스 파일\채용지원 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplyImmediately.cpp">
+      <Filter>소스 파일\채용지원 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplyImmediatelyUI.cpp">
+      <Filter>소스 파일\채용지원 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewApplicationInfo.cpp">
+      <Filter>소스 파일\채용지원 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewApplicationInfoUI.cpp">
+      <Filter>소스 파일\채용지원 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="CancelApplication.cpp">
+      <Filter>소스 파일\채용지원 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="CancelApplicationUI.cpp">
+      <Filter>소스 파일\채용지원 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRecruitInfoStats.cpp">
+      <Filter>소스 파일\채용정보통계 서브시스템</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRecruitInfoStatsUI.cpp">
+      <Filter>소스 파일\채용정보통계 서브시스템</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CompanyMember.h">
+      <Filter>헤더 파일\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralMember.h">
+      <Filter>헤더 파일\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Member.h">
+      <Filter>헤더 파일\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="MemberCollection.h">
+      <Filter>헤더 파일\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="RecruitInfo.h">
+      <Filter>헤더 파일\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="RecruitInfoCollection.h">
+      <Filter>헤더 파일\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>헤더 파일\회원관리 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="Logout.h">
+      <Filter>헤더 파일\회원관리 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="Register.h">
+      <Filter>헤더 파일\회원관리 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="Withdraw.h">
+      <Filter>헤더 파일\회원관리 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewAddedRecruitListUI.h">
+      <Filter>헤더 파일\채용정보관리 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="AddRecruitInfo.h">
+      <Filter>헤더 파일\채용정보관리 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="AddRecruitInfoUI.h">
+      <Filter>헤더 파일\채용정보관리 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewAddedRecruitList.h">
+      <Filter>헤더 파일\채용정보관리 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginUI.h">
+      <Filter>헤더 파일\회원관리 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoutUI.h">
+      <Filter>헤더 파일\회원관리 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterUI.h">
+      <Filter>헤더 파일\회원관리 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="WithdrawUI.h">
+      <Filter>헤더 파일\회원관리 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationInfoCollection.h">
+      <Filter>헤더 파일\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationInfo.h">
+      <Filter>헤더 파일\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplyImmediatelyUI.h">
+      <Filter>헤더 파일\채용지원 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplyImmediately.h">
+      <Filter>헤더 파일\채용지원 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchRecruitInfo.h">
+      <Filter>헤더 파일\채용지원 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchRecruitInfoUI.h">
+      <Filter>헤더 파일\채용지원 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewApplicationInfo.h">
+      <Filter>헤더 파일\채용지원 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewApplicationInfoUI.h">
+      <Filter>헤더 파일\채용지원 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="CancelApplication.h">
+      <Filter>헤더 파일\채용지원 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="CancelApplicationUI.h">
+      <Filter>헤더 파일\채용지원 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRecruitInfoStats.h">
+      <Filter>헤더 파일\채용정보통계 서브시스템</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRecruitInfoStatsUI.h">
+      <Filter>헤더 파일\채용정보통계 서브시스템</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
